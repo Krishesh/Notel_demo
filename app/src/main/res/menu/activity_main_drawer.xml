@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_hotels"
+            android:icon="@drawable/ic_hotel"
+            android:title="Booking/Hotels" />
+        <item
+            android:id="@+id/nav_travel_plan"
+            android:icon="@drawable/ic_travel_plan"
+            android:title="My Travel Plan" />
+        <item
+            android:id="@+id/nav_recent"
+            android:icon="@drawable/ic_recent"
+            android:title="Recent View" />
+     
+        <item
+            android:id="@+id/nav_guide"
+            android:icon="@drawable/ic_guide"
+            android:title="Travel Guide" />
+    </group>
+
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="Help And Support" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedbacks" />
+
+        </menu>
+    </item>
+
+
+</menu>
